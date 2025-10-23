@@ -11,8 +11,8 @@ jobs:
 
         name: Crear archivo con la version de node, npm y yarn
         run:
-        node -v > versiones.txt
-        npm -v >> versiones.txt
-        yarn -v >> versiones.txt
+          node -v > versiones.txt
+          npm -v >> versiones.txt
+          yarn -v >> versiones.txt
 
-        cat versiones.txt
+          cat versiones.txt
